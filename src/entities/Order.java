@@ -59,4 +59,12 @@ public class Order {
         orderItems.remove(item);
     }
 
+    public Double total() {
+        double sum = 0;
+        for (OrderItem order : orderItems) {
+            sum += order.subTotal();
+        }
+        return sum;
+    }
+
 }
