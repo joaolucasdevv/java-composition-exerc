@@ -14,4 +14,13 @@ public class Order {
     private Client client;
     private List<OrderItem> orderItems = new ArrayList<>();
 
+    public Order() {
+    }
+
+    public Order(LocalDate moment, OrderStatus status, Client client) {
+        this.moment = moment;
+        this.status = status;
+        this.client = client;
+    }
+
 }
