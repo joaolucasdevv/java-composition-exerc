@@ -17,4 +17,16 @@ public class Client {
         this.birthDate = birthDate;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public LocalDate getBirthDate() {
+        return birthDate;
+    }
+
 }
