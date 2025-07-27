@@ -23,4 +23,32 @@ public class Order {
         this.client = client;
     }
 
+    public LocalDate getMoment() {
+        return moment;
+    }
+
+    public OrderStatus status() {
+        return status;
+    }
+
+    public Client getClient() {
+        return client;
+    }
+
+    public List<OrderItem> getOrderItems() {
+        return orderItems;
+    }
+
+    public void setMoment(LocalDate moment) {
+        this.moment = moment;
+    }
+
+    public void setStatus(OrderStatus status) {
+        this.status = status;
+    }
+
+    public void setClient(Client client) {
+        this.client = client;
+    }
+
 }
