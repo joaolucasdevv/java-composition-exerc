@@ -16,4 +16,16 @@ public class OrderItem {
         this.product = product;
     }
 
+    public Integer getQuantity() {
+        return quantity;
+    }
+
+    public Double getPrice() {
+        return price;
+    }
+
+    public Product getProduct() {
+        return product;
+    }
+
 }
