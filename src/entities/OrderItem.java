@@ -28,4 +28,16 @@ public class OrderItem {
         return product;
     }
 
+    public void setQuantity(Integer quantity) {
+        this.quantity = quantity;
+    }
+
+    public void setPrice(Double price) {
+        this.price = price;
+    }
+
+    public void setProduct(Product product) {
+        this.product = product;
+    }
+
 }
