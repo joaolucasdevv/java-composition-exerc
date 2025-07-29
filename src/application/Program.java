@@ -19,6 +19,7 @@ public class Program {
         Scanner sc = new Scanner(System.in);
 
         DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        DateTimeFormatter fmt2 = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
 
         System.out.println("Enter client data:");
 
@@ -55,7 +56,7 @@ public class Program {
 
         System.out.println();
         System.out.println("ORDER SUMMARY:");
-        System.out.println("Order moment: " + order.getMoment().format(fmt));
+        System.out.println("Order moment: " + order.getMoment().format(fmt2));
         System.out.println("Order status: " + order.getStatus());
         System.out.println("Client " + order.getClient());
 
