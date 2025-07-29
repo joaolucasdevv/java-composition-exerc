@@ -1,8 +1,11 @@
 package entities;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class Client {
+
+    public static DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
 
     private String name;
     private String email;
@@ -39,6 +42,10 @@ public class Client {
 
     public void setBirthDate(LocalDate birthDate) {
         this.birthDate = birthDate;
+    }
+
+    public String toString() {
+        return name + " (" + birthDate.format(fmt) + ") " + email;
     }
 
 }
