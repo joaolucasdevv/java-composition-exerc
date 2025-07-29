@@ -53,6 +53,8 @@ public class Program {
 
         System.out.println("ORDER SUMMARY:");
 
+        System.out.print("Order moment: " + order.getMoment().format(fmt));
+
 
         sc.close();
     }
