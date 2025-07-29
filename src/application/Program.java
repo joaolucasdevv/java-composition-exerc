@@ -27,7 +27,7 @@ public class Program {
         System.out.print("Birth date (DD/MM/YYYY): ");
         LocalDate bithDate = LocalDate.parse(sc.nextLine(), fmt);
 
-        System.out.println("Enter order data:");
+        System.out.println("Enter order data: ");
         OrderStatus orderStatus = OrderStatus.valueOf(sc.nextLine());
 
         Order order = new Order(LocalDate.now(), orderStatus, new Client(name, email, bithDate));
