@@ -41,7 +41,7 @@ public class OrderItem {
     }
 
     public Double subTotal() {
-        return price = product.getPrice() * quantity;
+        return price * quantity;
     }
 
 }
