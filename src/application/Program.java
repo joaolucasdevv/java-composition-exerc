@@ -38,8 +38,9 @@ public class Program {
 
         System.out.print("How many items to this order? ");
         int n = sc.nextInt();
-        sc.nextLine();
+
         for (int i=0; i<n; i++) {
+            sc.nextLine();
             System.out.print("Product name: ");
             String productName = sc.nextLine();
             System.out.print("Product price: ");
