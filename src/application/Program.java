@@ -1,5 +1,7 @@
 package application;
 
+import entities.enums.OrderStatus;
+
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 import java.util.Scanner;
@@ -20,6 +22,7 @@ public class Program {
         String email = sc.nextLine();
 
         System.out.println("Enter order data:");
+        OrderStatus orderStatus = OrderStatus.valueOf(sc.nextLine());
 
 
 
