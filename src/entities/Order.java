@@ -3,12 +3,13 @@ package entities;
 import entities.enums.OrderStatus;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Order {
 
-    private LocalDate moment;
+    private LocalDateTime moment;
     private OrderStatus status;
 
     private Client client;
@@ -17,13 +18,13 @@ public class Order {
     public Order() {
     }
 
-    public Order(LocalDate moment, OrderStatus status, Client client) {
+    public Order(LocalDateTime moment, OrderStatus status, Client client) {
         this.moment = moment;
         this.status = status;
         this.client = client;
     }
 
-    public LocalDate getMoment() {
+    public LocalDateTime getMoment() {
         return moment;
     }
 
@@ -39,7 +40,7 @@ public class Order {
         return orderItems;
     }
 
-    public void setMoment(LocalDate moment) {
+    public void setMoment(LocalDateTime moment) {
         this.moment = moment;
     }
 

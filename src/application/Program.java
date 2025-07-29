@@ -7,6 +7,7 @@ import entities.Product;
 import entities.enums.OrderStatus;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 import java.util.Scanner;
@@ -33,7 +34,7 @@ public class Program {
         System.out.print("Status: ");
         OrderStatus orderStatus = OrderStatus.valueOf(sc.nextLine());
 
-        Order order = new Order(LocalDate.now(), orderStatus, new Client(name, email, bithDate));
+        Order order = new Order(LocalDateTime.now(), orderStatus, new Client(name, email, bithDate));
 
         System.out.print("How many items to this order? ");
         int n = sc.nextInt();
@@ -51,6 +52,7 @@ public class Program {
         }
 
         System.out.println("ORDER SUMMARY:");
+
 
         sc.close();
     }
