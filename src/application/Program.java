@@ -50,7 +50,7 @@ public class Program {
             order.addItem(orderItem);
         }
 
-
+        System.out.println("ORDER SUMMARY:");
 
         sc.close();
     }
