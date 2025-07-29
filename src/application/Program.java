@@ -12,6 +12,14 @@ public class Program {
 
         DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
+        System.out.println("Enter client data:");
+
+        System.out.print("Name: ");
+        String name = sc.nextLine();
+        System.out.print("Email: ");
+        String email = sc.nextLine();
+
+
 
 
 
