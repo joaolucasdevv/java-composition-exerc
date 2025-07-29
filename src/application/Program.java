@@ -52,13 +52,13 @@ public class Program {
         }
 
         System.out.println("ORDER SUMMARY:");
-
         System.out.println("Order moment: " + order.getMoment().format(fmt));
         System.out.println("Order status: " + order.getStatus());
         System.out.println("Client " + order.getClient());
 
         System.out.println("Order items:");
         System.out.println(order.getOrderItems());
+        System.out.println("Total price: $" + order.total());
 
         sc.close();
     }
