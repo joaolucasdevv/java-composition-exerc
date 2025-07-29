@@ -43,7 +43,7 @@ public class Program {
             System.out.print("Product name: ");
             String productName = sc.nextLine();
             System.out.print("Product price: ");
-            double productPrice = sc.nextInt();
+            double productPrice = sc.nextDouble();
             System.out.print("Quantity: ");
             int quantity = sc.nextInt();
 
