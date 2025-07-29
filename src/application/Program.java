@@ -19,6 +19,8 @@ public class Program {
         System.out.print("Email: ");
         String email = sc.nextLine();
 
+        System.out.println("Enter order data:");
+
 
 
 
