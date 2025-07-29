@@ -57,6 +57,8 @@ public class Program {
         System.out.println("Order status: " + order.getStatus());
         System.out.println("Client " + order.getClient());
 
+        System.out.println("Order items:");
+
 
         sc.close();
     }
