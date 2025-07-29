@@ -36,8 +36,11 @@ public class Program {
         System.out.print("How many items to this order? ");
         int n = sc.nextInt();
         for (int i=0; i<n; i++) {
+            System.out.print("Product name: ");
             String productName = sc.nextLine();
+            System.out.print("Product price: ");
             double productPrice = sc.nextInt();
+            System.out.print("Quantity: ");
             int quantity = sc.nextInt();
 
             OrderItem orderItem = new OrderItem(quantity, productPrice, new Product(productName, productPrice));
