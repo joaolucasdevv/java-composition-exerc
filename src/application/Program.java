@@ -2,6 +2,7 @@ package application;
 
 import entities.Client;
 import entities.Order;
+import entities.OrderItem;
 import entities.Product;
 import entities.enums.OrderStatus;
 
@@ -36,8 +37,13 @@ public class Program {
         int n = sc.nextInt();
         for (int i=0; i<n; i++) {
             String productName = sc.nextLine();
-        }
+            double productPrice = sc.nextInt();
+            int quantity = sc.nextInt();
 
+            OrderItem orderItem = new OrderItem(quantity, productPrice, new Product(productName, productPrice));
+
+            order.addItem(orderItem);
+        }
 
 
 
