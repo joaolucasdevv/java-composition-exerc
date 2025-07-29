@@ -54,7 +54,7 @@ public class Program {
         System.out.println("ORDER SUMMARY:");
 
         System.out.println("Order moment: " + order.getMoment().format(fmt));
-        System.out.println("Order");
+        System.out.println("Order status: " + order.setStatus(););
 
 
         sc.close();

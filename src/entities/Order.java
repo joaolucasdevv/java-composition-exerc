@@ -28,7 +28,7 @@ public class Order {
         return moment;
     }
 
-    public OrderStatus status() {
+    public OrderStatus getStatus() {
         return status;
     }
 
