@@ -22,6 +22,7 @@ public class Program {
 
         System.out.println("Enter client data:");
 
+        sc.nextLine();
         System.out.print("Name: ");
         String name = sc.nextLine();
         System.out.print("Email: ");
