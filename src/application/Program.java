@@ -61,7 +61,7 @@ public class Program {
         System.out.println("Client " + order.getClient());
 
         System.out.println("Order items:");
-        System.out.println(order.getOrderItems());
+        System.out.println(order.getOrderItems().toString());
         System.out.println("Total price: $" + order.total());
 
         sc.close();
