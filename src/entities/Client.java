@@ -5,7 +5,7 @@ import java.time.format.DateTimeFormatter;
 
 public class Client {
 
-    public static DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
+    public static DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
     private String name;
     private String email;
