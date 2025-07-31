@@ -64,7 +64,7 @@ public class Program {
         for (OrderItem o : order.getOrderItems()) {
             System.out.println(o);
         }
-        System.out.println("Total price: $" + order.total());
+        System.out.printf("Total price: $%.2f%n", order.total());
 
         sc.close();
     }
