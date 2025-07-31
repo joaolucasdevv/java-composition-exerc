@@ -60,7 +60,7 @@ public class Program {
 
         String orderStauts = String.valueOf(order.getStatus()).toLowerCase();
         String result = orderStauts.substring(0,1).toUpperCase() + orderStauts.substring(1);
-        System.out.println("Order status: " + order.getStatus());
+        System.out.println("Order status: " + result);
 
         System.out.println("Client " + order.getClient());
 
