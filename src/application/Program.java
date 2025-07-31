@@ -57,7 +57,11 @@ public class Program {
         System.out.println();
         System.out.println("ORDER SUMMARY:");
         System.out.println("Order moment: " + order.getMoment().format(fmt2));
+
+        String orderStauts = String.valueOf(order.getStatus()).toLowerCase();
+        String result = orderStauts.substring(0,1).toUpperCase() + orderStauts.substring(1);
         System.out.println("Order status: " + order.getStatus());
+
         System.out.println("Client " + order.getClient());
 
         System.out.println("Order items:");
