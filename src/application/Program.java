@@ -62,7 +62,7 @@ public class Program {
         String result = orderStauts.substring(0,1).toUpperCase() + orderStauts.substring(1);
         System.out.println("Order status: " + result);
 
-        System.out.println("Client " + order.getClient());
+        System.out.println("Client: " + order.getClient());
 
         System.out.println("Order items:");
         for (OrderItem o : order.getOrderItems()) {
