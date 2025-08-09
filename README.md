@@ -7,7 +7,13 @@
 Exemplo:
 ``` Java
 public enum DiaDaSemana {
-    SEGUNDA, TERCA, QUARTA, QUINTA, SEXTA, SABADO, DOMINGO;
+    SEGUNDA, 
+    TERCA, 
+    QUARTA, 
+    QUINTA, 
+    SEXTA, 
+    SABADO, 
+    DOMINGO;
 }
 ```
 ## Composição:
@@ -20,3 +26,8 @@ relação "tem-um" ou "tem-vários".
 Nosso objetivo é criar uma pequena aplicação que no final deve mostrar o sumário do pedido
 * Esse pedido tem que ser composto por algumas classes, entre elas, os itens, os produtos, os clientes e,
 é claro um tipo enumerado contendo o status de cada pedido.
+
+![exemplo](./img/exemplo.png)
+Utilizando da classe Order com conceitos de **Composição** e **Enumeração** criamos uma pequena lógica
+utilizando entrada de dados para preencher os dados do cliente e do pedido para logo em seguida exibir
+os dados através da saíde de dados.
