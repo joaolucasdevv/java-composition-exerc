@@ -42,3 +42,11 @@ Veja que quando instânciarmos nosso objeto Order, ele será composto por outros
 * O objeto **OrderItem** compõe o objeto **Order**
 * por fim temos o objeto **Client** compondo o objeto **Order** juntamente com nosso tipo Enumerado
   **OrderStatus**
+
+### Estrutura do programa:
+![estrutura](./img/estrutura.png)
+
+Aqui temos a estrutura do nosso programinha com uma package armazenando a classe Program que tem o entrypoint
+da nossa aplicação
+
+Temos também o package entities que contém a classe Order e as classes que compõem a nossa classe Order.
