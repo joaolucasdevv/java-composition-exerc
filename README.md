@@ -33,3 +33,12 @@ Nosso objetivo é criar uma pequena aplicação que no final deve mostrar o sum�
 Utilizando da classe Order com conceitos de **Composição** e **Enumeração** criamos uma pequena lógica
 utilizando entrada de dados para preencher os dados do cliente e do pedido para logo em seguida exibir
 os dados através da saíde de dados.
+
+### Comportamento em memória:
+![memoria](./img/objetoemmemoria.png)
+
+Veja que quando instânciarmos nosso objeto Order, ele será composto por outros objetos intânciados
+* Temos o objeto **Product** que compõe o objeto **OrderItem**
+* O objeto **OrderItem** compõe o objeto **Order**
+* por fim temos o objeto **Client** compondo o objeto **Order** juntamente com nosso tipo Enumerado
+  **OrderStatus**
