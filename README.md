@@ -22,7 +22,7 @@ relação "tem-um" ou "tem-vários".
 * Uma classe usa composição quando contém outra classe como atributo.
 
 ## Objetivo do exercício:
-![enunciado](./img/enunciado.png)
+
 
 Nosso objetivo é criar uma pequena aplicação que no final deve mostrar o sumário do pedido
 * Esse pedido tem que ser composto por algumas classes, entre elas, os itens, os produtos, os clientes e,
